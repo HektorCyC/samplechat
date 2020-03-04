@@ -1,6 +1,6 @@
 # Sample Livechat using Socket.io Project
 
-[Demo🏃](https://sampleapp-49553.web.app/)
+[Demo🏃](https://samplechatfront.firebaseapp.com/)
 
  - [x] [Angular Material design](https://material.angular.io/)✔️
  - [x] Mobile friendly ✔️
