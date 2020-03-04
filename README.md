@@ -1,4 +1,4 @@
-# Sample charts component
+# Sample Livechat using Socket.io Project
 
 [Demo🏃](https://sampleapp-49553.web.app/)
 
@@ -12,14 +12,14 @@
 
 ## How to run the project in localhost
 
-# Instructions for FrontEnd
+### Instructions for FrontEnd
  1. Clone the repository at the master branch
  2. NodeJs **minimum 10.15.0 is required**
  3. Setup your own Firebase project API keys at the file `enviroments/enviroment.ts`
  4. Install dependecies `npm i`
  5. Serve the project `ng serve`
 
-# Instructions for Backend
+### Instructions for Backend
  1. Clone the repository at the master branch
  2. NodeJs **minimum 10.15.0 is required**
  3. Setup your own Firebase project API keys at the file `enviroments/enviroment.ts`
