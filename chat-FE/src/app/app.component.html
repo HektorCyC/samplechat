@@ -1,0 +1,17 @@
+<nb-layout>
+  <nb-layout-header fixed>Héctor @ CINGO Intl.</nb-layout-header>
+
+  <!-- <nb-sidebar>Sidebar Content</nb-sidebar> -->
+
+  <nb-layout-column>
+    <nb-chat title="CINGO Intl. Corporate chat" size="large">
+      <nb-chat-message *ngFor="let msg of chatMessages"
+                       [type]="msg.type"
+                       [message]="msg.text"
+                       [sender]="msg.user.name">
+      </nb-chat-message>
+      <nb-chat-form (send)="sendMessage($event)" [dropFiles]="false">
+      </nb-chat-form>
+    </nb-chat>
+  </nb-layout-column>
+</nb-layout>
