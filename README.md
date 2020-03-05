@@ -13,18 +13,18 @@
 ## How to run the project in localhost
 
 ### Instructions for FrontEnd
- 1. Clone the repository at the master branch
+ 1. Place yourself into the chat-FE folder
  2. NodeJs **minimum 10.15.0 is required**
- 3. Setup your own Firebase project API keys at the file `enviroments/enviroment.ts`
+ 3. Setup your own URL at the webservice file or replace with localhost
  4. Install dependecies `npm i`
  5. Serve the project `ng serve`
 
 ### Instructions for Backend
- 1. Clone the repository at the master branch
+ 1. Place yourself into the chat-BE folder
  2. NodeJs **minimum 10.15.0 is required**
- 3. Setup your own Firebase project API keys at the file `enviroments/enviroment.ts`
  4. Install dependecies `npm i`
- 5. Serve the project `nodo lib/index.js`
+ 5. Serve the project `node lib/index.js`
+ 6. Service will run on port 3000 by default
 
 ## Deploy to Firebase
 
