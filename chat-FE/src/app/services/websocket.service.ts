@@ -7,7 +7,7 @@ import { Observable } from "rxjs";
 })
 export class WebsocketService {
   socket: any;
-  readonly uri: string = "ws://localhost:3000"; // Web socket URI
+  readonly uri: string = "//samplechat-be.herokuapp.com"; // Web socket URI
   constructor() {
     this.socket = io(this.uri);
   }
@@ -16,7 +16,6 @@ export class WebsocketService {
     return new Observable(subscriber => {
       this.socket.on(eventName, data => {
         subscriber.next(data);
-        console.log(data)
       });
     });
   }

@@ -11,6 +11,7 @@
 /node_modules
 chat-BE/node_modules
 chat-FE/node_modules
+chat-FE/dist/*
 
 # profiling files
 chrome-profiler-events*.json

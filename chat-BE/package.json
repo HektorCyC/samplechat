@@ -4,11 +4,13 @@
   "description": "Basic backend with socket for a realtime chat",
   "main": "app/index.js",
   "scripts": {
+    "start": "node app/index.js",
     "devStart": "nodemon app/index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.17.1",
     "socket.io": "^2.3.0"
   }
 }
